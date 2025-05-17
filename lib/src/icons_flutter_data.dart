@@ -4,6 +4,7 @@ class IconsFlutterData extends IconData {
   const IconsFlutterData(int codePoint, String fontFamily)
       : super(codePoint, fontFamily: fontFamily, fontPackage: "icons_flutter");
 
+  // All constructors below are properly marked as const
   const IconsFlutterData.ionicons(int codePoint) : this(codePoint, "Ionicons");
 
   const IconsFlutterData.antDesign(int codePoint)
